@@ -31,7 +31,8 @@ class Recipe(recipe.Recipe):
     name = 'libusrsctp'
     version = 'master'
     remotes = { 'origin': 'https://github.com/sctplab/usrsctp.git' };
-    commit = 'f4819e1b177f7bfdd761c147f5a649b9f1a78c06';
+    # commit = 'f4819e1b177f7bfdd761c147f5a649b9f1a78c06';
+    commit = '0e076261b832121cf120ddc04aaff87ac3a34d30';
     stype = SourceType.GIT
     autoreconf = True
     licenses = [License.BSD_like]
